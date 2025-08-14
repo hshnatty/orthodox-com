@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orthodox Christian Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Orthodox Christian Community</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="admin.html">Admin</a>
+            <a href="#" id="auth-btn">Login</a>
+        </nav>
+    </header>
+
+    <div id="post-container">
+        <div id="posts"></div>
+        <textarea id="new-post" placeholder="Create a new post..."></textarea>
+        <button id="post-btn">Post</button>
+    </div>
+
+    <footer>
+        <p>2025 Orthodox Christian Community</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
